@@ -23,7 +23,7 @@ const isApp = !!getClientConfig()?.isApp;
 export type SyncStore = GetStoreState<typeof useSyncStore>;
 
 const DEFAULT_SYNC_STATE = {
-  provider: ProviderType.WebDAV,
+  provider: ProviderType.UpStash,
   useProxy: true,
   proxyUrl: ApiPath.Cors as string,
 
@@ -34,9 +34,9 @@ const DEFAULT_SYNC_STATE = {
   },
 
   upstash: {
-    endpoint: "",
+    endpoint: "https://immense-penguin-46126.upstash.io",
     username: STORAGE_KEY,
-    apiKey: "",
+    apiKey: "ArQuAAIgcDE3QVqKAc-nxKypUIz_h8vadsixFVVRYLHU_HzrDkApTQ",
   },
 
   lastSyncTime: 0,
