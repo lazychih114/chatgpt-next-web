@@ -36,7 +36,7 @@ const DEFAULT_SYNC_STATE = {
   upstash: {
     endpoint: "https://immense-penguin-46126.upstash.io",
     username: STORAGE_KEY,
-    apiKey: "ArQuAAIgcDE3QVqKAc-nxKypUIz_h8vadsixFVVRYLHU_HzrDkApTQ",
+    apiKey: "AbQuAAIjcDE4NzNmOTllY2U4ODU0NjEzYWMwOTc2NjAwZTE0N2M5NXAxMA",
   },
 
   lastSyncTime: 0,
